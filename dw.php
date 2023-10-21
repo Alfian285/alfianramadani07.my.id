@@ -14,16 +14,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="p-4">
         <div class="container">
         <nav class="navbar navbar-expand-lg bg-body-dark    ">
   <div class="container-fluid">
+  <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" class="me-3"  >
+  <ellipse cx="22.9825" cy="23" rx="22.9825" ry="23" fill="#2A9D8F"/>
+  <foreignObject width="100%" height="100%"  >
+    <div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">
+      <i class="fas fa-tree" style="font-size: 20px; color: #ffffff;"></i>
+    </div>
+  </foreignObject>
+</svg>
+
     <a class="navbar-brand" href="#">NEFLAM</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3 ms-5 ">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
