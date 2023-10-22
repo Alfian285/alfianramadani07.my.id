@@ -2,3 +2,12 @@ a#navbrand{
     text-decoration: none;
     color:black;
 }
+#search {
+    max-width: 75%;
+}
+#testis{
+    box-shadow: 5px 5px #3F3D56;
+}
+hr{
+    margin: 0.5rem;
+}
